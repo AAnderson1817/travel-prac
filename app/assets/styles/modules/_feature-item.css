@@ -17,7 +17,15 @@
   }
   &__title{
     font-weight:300;
-    font-size: 1.875rem;
+    font-size:1.6rem;
+    margin-top:.7em;
     margin-bottom:.8rem;
+    text-align:center;
+
+    @mixin atSmall{
+      font-size: 1.875rem;
+      text-align:left;
+
+    }
   }
 }
