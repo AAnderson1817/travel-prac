@@ -16,7 +16,12 @@
   &--gutters-large > div{
     padding-right: 100px;
   }
-
+  &--gutters-small{
+    margin-right: -45px;
+  }
+  &--gutters-small > div{
+    padding-right:45px;
+  }
   &__b-margin-until-medium{
     margin-bottom:1rem;
   }
@@ -48,5 +53,15 @@
     &__b-margin-until-medium{
       margin-bottom: 0;
     }
+    &--equal-height-at-medium{
+      @mixin atMedium{
+        display:flex;
+      }
+      & > div{
+        float: none;
+        display:flex;
+      }
+    }
   }
+
 }
