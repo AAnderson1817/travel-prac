@@ -733,6 +733,8 @@ text-align:center;
 @media (min-width: 530px) {
 
   .section-title__icon {
+    position: relative;
+    top: 8px;
     margin-right: .5rem;
     margin-left: 0;
     display: inline-block;
@@ -783,4 +785,20 @@ text-align:center;
     font-size: 1.875rem;
     text-align: left;
   }
+}
+
+.testimonial{
+  background-color: rgba(255,255,255,.8);
+  padding: 0 1.8125rem 1px 1.8125rem;
+}
+
+.testimonial__photo{
+  position:relative;
+  margin: 0 auto -80px auto;
+  border: 6px solid rgba(255,255,255,.8);
+  border-radius:80px;
+  overflow:hidden;
+  width:160px;
+  height: 160px;
+  top: -80px;
 }
